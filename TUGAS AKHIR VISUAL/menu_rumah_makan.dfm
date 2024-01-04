@@ -4,7 +4,7 @@ object Form6: TForm6
   Width = 682
   Height = 629
   Caption = 'menu rumah makan '
-  Color = clHotLight
+  Color = clInactiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -43,9 +43,9 @@ object Form6: TForm6
   object Label1: TLabel
     Left = 240
     Top = 16
-    Width = 189
+    Width = 214
     Height = 23
-    Caption = 'menu rumah makan'
+    Caption = 'MENU RUMAH MAKAN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19

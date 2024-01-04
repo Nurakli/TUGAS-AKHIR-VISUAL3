@@ -1,10 +1,10 @@
 object Form8: TForm8
-  Left = 769
-  Top = 177
+  Left = 502
+  Top = 183
   Width = 687
   Height = 557
   Caption = 'view order'
-  Color = clHotLight
+  Color = clInactiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,9 +17,9 @@ object Form8: TForm8
   object Label1: TLabel
     Left = 272
     Top = 24
-    Width = 102
+    Width = 129
     Height = 23
-    Caption = 'view order'
+    Caption = 'VIEW ORDER'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
@@ -54,8 +54,8 @@ object Form8: TForm8
     ParentFont = False
   end
   object dg1: TDBGrid
-    Left = 8
-    Top = 352
+    Left = 24
+    Top = 264
     Width = 617
     Height = 193
     DataSource = ds1
@@ -74,8 +74,8 @@ object Form8: TForm8
     OnCellClick = dg1CellClick
   end
   object b1: TButton
-    Left = 17
-    Top = 307
+    Left = 25
+    Top = 155
     Width = 75
     Height = 29
     Caption = 'BARU'
@@ -89,8 +89,8 @@ object Form8: TForm8
     OnClick = b1Click
   end
   object b2: TButton
-    Left = 137
-    Top = 307
+    Left = 121
+    Top = 155
     Width = 75
     Height = 29
     Caption = 'SIMPAN'
@@ -104,8 +104,8 @@ object Form8: TForm8
     OnClick = b2Click
   end
   object b3: TButton
-    Left = 233
-    Top = 310
+    Left = 217
+    Top = 158
     Width = 75
     Height = 26
     Caption = 'EDIT'
@@ -119,8 +119,8 @@ object Form8: TForm8
     OnClick = b3Click
   end
   object b4: TButton
-    Left = 337
-    Top = 307
+    Left = 313
+    Top = 155
     Width = 75
     Height = 29
     Caption = 'HAPUS'
@@ -134,8 +134,8 @@ object Form8: TForm8
     OnClick = b4Click
   end
   object b5: TButton
-    Left = 433
-    Top = 307
+    Left = 409
+    Top = 155
     Width = 75
     Height = 29
     Caption = 'BATAL'
@@ -149,8 +149,8 @@ object Form8: TForm8
     OnClick = b5Click
   end
   object Bb6: TButton
-    Left = 529
-    Top = 310
+    Left = 505
+    Top = 158
     Width = 75
     Height = 26
     Caption = 'LAPORAN'

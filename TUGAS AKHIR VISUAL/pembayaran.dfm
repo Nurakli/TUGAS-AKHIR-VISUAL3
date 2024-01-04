@@ -4,7 +4,7 @@ object Form9: TForm9
   Width = 684
   Height = 523
   Caption = 'pembayaran'
-  Color = clHotLight
+  Color = clInactiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,9 +17,9 @@ object Form9: TForm9
   object Label1: TLabel
     Left = 272
     Top = 24
-    Width = 123
+    Width = 135
     Height = 23
-    Caption = 'pembayaran '
+    Caption = 'PEMBAYARAN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19

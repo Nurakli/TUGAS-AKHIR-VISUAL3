@@ -215,19 +215,21 @@ object Form9: TForm9
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
+    Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'dealer_motor'
+    Database = 'rumah_makan'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'D:\Tugas Akhir\libmysql.dll'
+    LibraryLocation = 'F:\Tugas Akhir\libmysql.dll'
     Left = 616
     Top = 16
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
-      'select * from transaksi')
+      'select * from pembayaran')
     Params = <>
     Left = 616
     Top = 64

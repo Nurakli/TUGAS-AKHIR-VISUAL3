@@ -1,6 +1,6 @@
 object Form7: TForm7
-  Left = 493
-  Top = 179
+  Left = 317
+  Top = 445
   Width = 683
   Height = 601
   Caption = 'pesanan'
@@ -228,19 +228,21 @@ object Form7: TForm7
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
+    Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'dealer_motor'
+    Database = 'rumah_makan'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'D:\Tugas Akhir\libmysql.dll'
+    LibraryLocation = 'F:\Tugas Akhir\libmysql.dll'
     Left = 616
     Top = 16
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
-      'select * from suplier')
+      'select * from pesanan')
     Params = <>
     Left = 616
     Top = 64

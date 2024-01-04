@@ -1,10 +1,10 @@
 object Form7: TForm7
-  Left = 317
-  Top = 445
+  Left = 337
+  Top = 194
   Width = 683
   Height = 601
   Caption = 'pesanan'
-  Color = clHotLight
+  Color = clInactiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -67,11 +67,11 @@ object Form7: TForm7
     ParentFont = False
   end
   object Label1: TLabel
-    Left = 200
+    Left = 280
     Top = 24
-    Width = 79
+    Width = 92
     Height = 23
-    Caption = 'pesanan'
+    Caption = 'PESANAN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
@@ -81,7 +81,7 @@ object Form7: TForm7
   end
   object dg1: TDBGrid
     Left = 24
-    Top = 344
+    Top = 280
     Width = 617
     Height = 193
     DataSource = ds1
@@ -100,8 +100,8 @@ object Form7: TForm7
     OnCellClick = dg1CellClick
   end
   object b1: TButton
-    Left = 65
-    Top = 299
+    Left = 57
+    Top = 227
     Width = 75
     Height = 29
     Caption = 'BARU'
@@ -115,8 +115,8 @@ object Form7: TForm7
     OnClick = b1Click
   end
   object b2: TButton
-    Left = 153
-    Top = 299
+    Left = 145
+    Top = 227
     Width = 75
     Height = 29
     Caption = 'SIMPAN'
@@ -130,8 +130,8 @@ object Form7: TForm7
     OnClick = b2Click
   end
   object b3: TButton
-    Left = 241
-    Top = 296
+    Left = 233
+    Top = 224
     Width = 80
     Height = 32
     Caption = 'EDIT'
@@ -145,8 +145,8 @@ object Form7: TForm7
     OnClick = b3Click
   end
   object b4: TButton
-    Left = 337
-    Top = 299
+    Left = 329
+    Top = 227
     Width = 72
     Height = 29
     Caption = 'HAPUS'
@@ -160,8 +160,8 @@ object Form7: TForm7
     OnClick = b4Click
   end
   object b5: TButton
-    Left = 425
-    Top = 299
+    Left = 417
+    Top = 227
     Width = 75
     Height = 29
     Caption = 'BATAL'
@@ -175,8 +175,8 @@ object Form7: TForm7
     OnClick = b5Click
   end
   object Bb6: TButton
-    Left = 513
-    Top = 296
+    Left = 505
+    Top = 224
     Width = 75
     Height = 32
     Caption = 'LAPORAN'

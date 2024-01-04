@@ -4,7 +4,7 @@ object Form1: TForm1
   Width = 662
   Height = 266
   Caption = 'Data pembuat'
-  Color = clHotLight
+  Color = clInactiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11

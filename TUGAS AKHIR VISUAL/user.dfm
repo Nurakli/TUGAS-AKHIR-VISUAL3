@@ -4,7 +4,7 @@ object Form5: TForm5
   Width = 793
   Height = 675
   Caption = 'user'
-  Color = clHotLight
+  Color = clInactiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -56,14 +56,16 @@ object Form5: TForm5
   object Label1: TLabel
     Left = 328
     Top = 24
-    Width = 41
+    Width = 52
     Height = 23
-    Caption = 'user'
+    Caption = 'USER'
+    Color = clInactiveCaption
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
     Font.Name = 'Tahoma'
     Font.Style = [fsBold]
+    ParentColor = False
     ParentFont = False
   end
   object Edit2: TEdit
@@ -88,8 +90,8 @@ object Form5: TForm5
     TabOrder = 2
   end
   object dg1: TDBGrid
-    Left = 32
-    Top = 392
+    Left = 24
+    Top = 304
     Width = 713
     Height = 201
     DataSource = ds1
@@ -108,8 +110,8 @@ object Form5: TForm5
     OnCellClick = dg1CellClick
   end
   object b1: TButton
-    Left = 32
-    Top = 325
+    Left = 24
+    Top = 205
     Width = 97
     Height = 44
     Caption = 'BARU'
@@ -123,8 +125,8 @@ object Form5: TForm5
     OnClick = b1Click
   end
   object b2: TButton
-    Left = 152
-    Top = 325
+    Left = 136
+    Top = 205
     Width = 97
     Height = 44
     Caption = 'SIMPAN'
@@ -138,8 +140,8 @@ object Form5: TForm5
     OnClick = b2Click
   end
   object b3: TButton
-    Left = 264
-    Top = 328
+    Left = 248
+    Top = 208
     Width = 97
     Height = 41
     Caption = 'EDIT'
@@ -153,8 +155,8 @@ object Form5: TForm5
     OnClick = b3Click
   end
   object b4: TButton
-    Left = 384
-    Top = 325
+    Left = 360
+    Top = 205
     Width = 97
     Height = 44
     Caption = 'HAPUS'
@@ -168,8 +170,8 @@ object Form5: TForm5
     OnClick = b4Click
   end
   object b5: TButton
-    Left = 504
-    Top = 325
+    Left = 472
+    Top = 205
     Width = 97
     Height = 44
     Caption = 'BATAL'
@@ -183,8 +185,8 @@ object Form5: TForm5
     OnClick = b5Click
   end
   object Bb6: TButton
-    Left = 624
-    Top = 328
+    Left = 584
+    Top = 208
     Width = 97
     Height = 41
     Caption = 'LAPORAN'
